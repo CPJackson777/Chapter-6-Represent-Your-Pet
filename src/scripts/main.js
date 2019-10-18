@@ -13,6 +13,21 @@ const myPet = {
     name: "Jagger",
     species: "Doberman Pinscher",
     nickname: "Kong",
-    Age: 2
+    Age: 2,
+    bark: function (something) {
+        window.alert(`Jagger barks 'WOOF!' at ${something}.`)
+    },
+    whine: function (when) {
+        window.alert(`Jagger whines when he is ${when}.`)
+    },
+    sniffs: function (at) {
+        window.alert(`Jagger always sniffs ${at}.`)
+    }
 }
+
+    myPet.bark('strangers')
+    myPet.whine('hungry')
+    myPet.sniffs('other dogs')
+
+
 console.log(myPet)
