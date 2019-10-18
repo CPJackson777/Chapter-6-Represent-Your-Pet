@@ -1,0 +1,1 @@
+console.log('Focus on YOUR progress compared to YOU...not other people.')
